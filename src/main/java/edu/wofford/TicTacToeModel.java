@@ -5,7 +5,7 @@ public class TicTacToeModel {
     public enum Mark {EMPTY, XMARK, OMARK}
 
     public enum Result {XWIN, OWIN, TIE, NONE}
-    
+
     private Mark[][] board;
     private Mark currentPlayer;
 
